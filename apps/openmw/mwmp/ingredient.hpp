@@ -3,7 +3,7 @@
 
 #include "../mwworld/class.hpp"
 
-namespace MWClass
+namespace MWMP
 {
     class Ingredient : public MWWorld::Class
     {
@@ -43,7 +43,7 @@ namespace MWClass
             virtual boost::shared_ptr<MWWorld::Action> use (const MWWorld::Ptr& ptr)
                 const;
             ///< Generate action for using via inventory menu
-            
+
             static void registerSelf();
 
             virtual std::string getUpSoundId (const MWWorld::Ptr& ptr) const;

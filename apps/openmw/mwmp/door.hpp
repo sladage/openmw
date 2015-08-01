@@ -5,7 +5,7 @@
 
 #include "../mwworld/class.hpp"
 
-namespace MWClass
+namespace MWMP
 {
     class Door : public MWWorld::Class
     {

@@ -3,7 +3,7 @@
 
 #include "../mwworld/class.hpp"
 
-namespace MWClass
+namespace MWMP
 {
     class Miscellaneous : public MWWorld::Class
     {

@@ -8,7 +8,7 @@ namespace ESM
     struct GameSetting;
 }
 
-namespace MWClass
+namespace MWMP
 {
     class Creature : public MWWorld::Class
     {
