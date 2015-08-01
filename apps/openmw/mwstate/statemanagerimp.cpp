@@ -615,3 +615,13 @@ void MWState::StateManager::writeScreenshot(std::vector<char> &imageData) const
     imageData = std::vector<char>(data.begin(), data.end());
 
 }
+
+bool MWState::StateManager::isMPGame()
+{
+  return mMultiPlayer;
+}
+
+bool MWState::StateManager::isMPHost()
+{
+  return mMPHost;
+}

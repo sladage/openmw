@@ -88,6 +88,10 @@ namespace MWBase
             virtual CharacterIterator characterEnd() = 0;
 
             virtual void update (float duration) = 0;
+
+            //multiplayer
+            virtual bool isMPGame() = 0;
+            virtual bool isMPHost() = 0;
     };
 }
 

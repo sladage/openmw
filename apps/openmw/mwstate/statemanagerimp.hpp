@@ -18,6 +18,8 @@ namespace MWState
             State mState;
             CharacterManager mCharacterManager;
             double mTimePlayed;
+            bool mMultiPlayer;
+            bool mMPHost;
 
         private:
 
@@ -83,6 +85,10 @@ namespace MWState
             virtual CharacterIterator characterEnd();
 
             virtual void update (float duration);
+
+            //multiplayer
+            virtual bool isMPGame();
+            virtual bool isMPHost();
     };
 }
 
